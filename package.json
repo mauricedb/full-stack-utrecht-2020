@@ -13,7 +13,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "use-abortable-fetch": "^2.6.13"
+    "use-abortable-fetch": "^2.6.13",
+    "yup": "^0.29.3"
   },
   "scripts": {
     "start": "react-scripts start",

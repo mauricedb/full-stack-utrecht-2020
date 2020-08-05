@@ -1,12 +1,13 @@
 import React from "react";
 import useAbortableFetch from "use-abortable-fetch";
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 
 import Loading from "./loading";
 import MovieEditor from "./movie-editor";
 
 const MovieEditorLoader = () => {
   const { movieId } = useParams();
+  const { push } = useHistory();
 
   const { data, error, loading } = useAbortableFetch(
     `https://the-problem-solver-sample-data.azurewebsites.net/top-rated-movies/${movieId}`
@@ -22,7 +23,7 @@ const MovieEditorLoader = () => {
 
   return (
     <div className="container">
-      <MovieEditor movie={data} />
+      <MovieEditor movie={data} push={push} />
     </div>
   );
 };
