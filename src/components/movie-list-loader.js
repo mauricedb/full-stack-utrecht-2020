@@ -1,6 +1,7 @@
 import React from "react";
 import useAbortableFetch from "use-abortable-fetch";
 
+import Loading from "./loading";
 import MovieList from "./movie-list";
 
 const MovieListLoader = () => {
@@ -13,7 +14,7 @@ const MovieListLoader = () => {
   }
 
   if (loading || !data) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   return (

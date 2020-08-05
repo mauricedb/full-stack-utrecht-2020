@@ -2,6 +2,7 @@ import React from "react";
 import useAbortableFetch from "use-abortable-fetch";
 import { useParams } from "react-router-dom";
 
+import Loading from "./loading";
 import MovieEditor from "./movie-editor";
 
 const MovieEditorLoader = () => {
@@ -16,7 +17,7 @@ const MovieEditorLoader = () => {
   }
 
   if (loading || !data) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   return (

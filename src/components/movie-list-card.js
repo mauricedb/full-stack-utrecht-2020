@@ -9,6 +9,7 @@ const MovieListCard = ({ movie }) => {
           src={`//image.tmdb.org/t/p/w300${movie.backdrop_path}`}
           className="card-img-top"
           alt={movie.title}
+          height={190}
         />
         <div className="card-body">
           <h5 className="card-title">{movie.title}</h5>
