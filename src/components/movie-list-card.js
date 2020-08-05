@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MovieListCard = ({ movie }) => {
   return (
-    <div className="col mb-4">
+    <div className="col mt-3">
       <div className="card h-100">
         <img
           src={`//image.tmdb.org/t/p/w300${movie.backdrop_path}`}
