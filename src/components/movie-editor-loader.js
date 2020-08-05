@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 import MovieEditor from "./movie-editor";
 
-const MovieLoader = () => {
+const MovieEditorLoader = () => {
   const { movieId } = useParams();
 
   const { data, error, loading } = useAbortableFetch(
@@ -26,4 +26,4 @@ const MovieLoader = () => {
   );
 };
 
-export default MovieLoader;
+export default MovieEditorLoader;

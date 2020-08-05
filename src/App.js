@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
-import MovieLoader from "./components/movie-loader";
+import MovieEditorLoader from "./components/movie-editor-loader";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Switch>
         <Route path="/movies">Movies</Route>
         <Route path="/movie/:movieId">
-          <MovieLoader />
+          <MovieEditorLoader />
         </Route>
         <Route>
           <Redirect to="/movies" />
