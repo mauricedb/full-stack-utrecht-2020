@@ -6,6 +6,8 @@ WithFixedClasses.args = {
 
 WithFixedClasses.argTypes = {
   labelClassName: {
+    name: "CSS classes",
+    defaultValue: "text-primary",
     control: {
       type: "select",
       options: ["", "text-success", "text-danger", "text-primary"],

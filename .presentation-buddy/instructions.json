@@ -1,39 +1,39 @@
 [
-  {
-    "type": "createFile",
-    "path": "src/components/label.stories.js"
-  },
-  {
-    "type": "typeTextFromFile",
-    "path": "./label.stories.1.js"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
-  {
-    "type": "openFile",
-    "path": "src/components/label.stories.js"
-  },
-  {
-    "type": "goto",
-    "line": 9999,
-    "column": 9999
-  },
-  {
-    "type": "typeText",
-    "text": ["", ""]
-  },
-  {
-    "type": "typeTextFromFile",
-    "path": "./label.stories.2.js"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
+  // {
+  //   "type": "createFile",
+  //   "path": "src/components/label.stories.js"
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./label.stories.1.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/label.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 9999,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", ""]
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./label.stories.2.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
   {
     "type": "openFile",
     "path": ".storybook/preview.js"
@@ -46,6 +46,103 @@
     "type": "typeText",
     "text": ["import 'bootstrap/dist/css/bootstrap.css';", ""]
   },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/label.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 9999,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", ""]
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./label.stories.3.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  // {
+  //   "type": "createFile",
+  //   "path": "src/components/input.stories.js"
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./input.stories.1.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/input.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 1,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", "import { Formik } from 'formik';"]
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 8,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", "  decorators: [(storyFn) => <Formik>{storyFn()}</Formik>],"]
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/input.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 9999,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./input.stories.2.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  {
+    "type": "createFile",
+    "path": "src/components/labeled-input.stories.js"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./labeled-input.stories.1.js"
+  },
   {
     "type": "wait",
     "delay": "manual",
@@ -53,7 +150,25 @@
   },
   {
     "type": "openFile",
-    "path": "src/components/label.stories.js"
+    "path": ".storybook/preview.js"
+  },
+  {
+    "type": "goto",
+    "line": 2
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./preview.2.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+
+  {
+    "type": "openFile",
+    "path": "src/components/labeled-input.stories.js"
   },
   {
     "type": "goto",
@@ -66,67 +181,34 @@
   },
   {
     "type": "typeTextFromFile",
-    "path": "./label.stories.3.js"
+    "path": "./labeled-input.stories.2.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+
+  {
+    "type": "openFile",
+    "path": "src/components/labeled-input.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", ""]
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./labeled-input.stories.3.js"
   },
   {
     "type": "wait",
     "delay": "manual",
     "save": true
   }
-  // {
-  //   "type": "typeText",
-  //   "text": [
-  //     "// This code is typed by Presentation Buddy",
-  //     "",
-  //     "class Calculator {",
-  //     "  add(x, y) {",
-  //     "    return x + y;",
-  //     "  }",
-  //     "}"
-  //   ]
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 4,
-  //   "column": 1
-  // },
-  // {
-  //   "type": "command",
-  //   "command": "workbench.action.files.save"
-  // },
-  // {
-  //   "type": "command",
-  //   "command": "workbench.action.closeActiveEditor"
-  // },
-  // {
-  //   "type": "createFile",
-  //   "path": "src/demo.js"
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": [
-  //     "// This code is typed by Presentation Buddy",
-  //     "",
-  //     "const Calculator = require('./calculator');",
-  //     "",
-  //     "const calc = new Calculator();",
-  //     "const sum = calc.add(1, 2)",
-  //     "console.log(`The sum of 1 + 2 = ${sum}`);"
-  //   ]
-  // },
-  // {
-  //   "type": "openFile",
-  //   "path": "src/calculator.js"
-  // },
-  // {
-  //   "type": "command",
-  //   "command": "cursorBottom"
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": [
-  //     "",
-  //     "module.exports = Calculator;"
-  //   ]
-  // }
 ]
