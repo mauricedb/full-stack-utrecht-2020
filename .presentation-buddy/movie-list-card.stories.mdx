@@ -1,0 +1,29 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import MovieListCard from './movie-list-card';
+import movies from './data/movies.json'
+
+<Meta title="Elements/MovieListCard" 
+      component={MovieListCard}
+      decorators={[(storyFn) => <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">{storyFn()}</div>]}
+/>
+
+# MovieListCard
+
+Rendering the movie: **The Shawshank Redemption**
+
+<Preview>
+    <Story name="Normal movie">
+        <MovieListCard movie={movies[0]} />
+    </Story>
+</Preview>
+
+Rendering a movie with a _long_ title
+
+<Story name="Long title">
+    <MovieListCard movie={{
+        "id": 637985,
+        "backdrop_path": "/te5RvCPgqwsMHJmTBx9VhtbOrSV.jpg",
+        "title": "Night Of The Day Of The Dawn Of The Son Of The Bride Of The Return Of The Revenge Of The Terror Of The Attack Of The Evil, Mutant, Hellbound, Flesh-Eating, Crawling, Alien, Zombified, Subhumanoid Living Dead — Part 5",
+        "overview": "A spoof written by James Riffel."
+    }} />
+</Story>

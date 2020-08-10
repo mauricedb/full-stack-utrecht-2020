@@ -135,19 +135,19 @@
   //   "save": true
   // },
 
-  {
-    "type": "createFile",
-    "path": "src/components/labeled-input.stories.js"
-  },
-  {
-    "type": "typeTextFromFile",
-    "path": "./labeled-input.stories.1.js"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
+  // {
+  //   "type": "createFile",
+  //   "path": "src/components/labeled-input.stories.js"
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./labeled-input.stories.1.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
   {
     "type": "openFile",
     "path": ".storybook/preview.js"
@@ -160,6 +160,66 @@
     "type": "typeTextFromFile",
     "path": "./preview.2.js"
   },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/labeled-input.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 9999,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", ""]
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./labeled-input.stories.2.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  // {
+  //   "type": "openFile",
+  //   "path": "src/components/labeled-input.stories.js"
+  // },
+  // {
+  //   "type": "goto",
+  //   "line": 9999,
+  //   "column": 9999
+  // },
+  // {
+  //   "type": "typeText",
+  //   "text": ["", ""]
+  // },
+  // {
+  //   "type": "typeTextFromFile",
+  //   "path": "./labeled-input.stories.3.js"
+  // },
+  // {
+  //   "type": "wait",
+  //   "delay": "manual",
+  //   "save": true
+  // },
+
+  {
+    "type": "createFile",
+    "path": "src/components/movie-list.stories.mdx"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./movie-list.stories.mdx"
+  },
   {
     "type": "wait",
     "delay": "manual",
@@ -167,44 +227,12 @@
   },
 
   {
-    "type": "openFile",
-    "path": "src/components/labeled-input.stories.js"
-  },
-  {
-    "type": "goto",
-    "line": 9999,
-    "column": 9999
-  },
-  {
-    "type": "typeText",
-    "text": ["", ""]
+    "type": "createFile",
+    "path": "src/components/movie-list-card.stories.mdx"
   },
   {
     "type": "typeTextFromFile",
-    "path": "./labeled-input.stories.2.js"
-  },
-  {
-    "type": "wait",
-    "delay": "manual",
-    "save": true
-  },
-
-  {
-    "type": "openFile",
-    "path": "src/components/labeled-input.stories.js"
-  },
-  {
-    "type": "goto",
-    "line": 9999,
-    "column": 9999
-  },
-  {
-    "type": "typeText",
-    "text": ["", ""]
-  },
-  {
-    "type": "typeTextFromFile",
-    "path": "./labeled-input.stories.3.js"
+    "path": "./movie-list-card.stories.mdx"
   },
   {
     "type": "wait",
