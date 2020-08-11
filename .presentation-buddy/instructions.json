@@ -1,39 +1,39 @@
 [
-  // {
-  //   "type": "createFile",
-  //   "path": "src/components/label.stories.js"
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./label.stories.1.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/label.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 9999,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", ""]
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./label.stories.2.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "createFile",
+    "path": "src/components/label.stories.js"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./label.stories.1.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "openFile",
+    "path": "src/components/label.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", ""]
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./label.stories.2.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
   {
     "type": "openFile",
     "path": ".storybook/preview.js"
@@ -46,108 +46,108 @@
     "type": "typeText",
     "text": ["import 'bootstrap/dist/css/bootstrap.css';", ""]
   },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/label.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 9999,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", ""]
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./label.stories.3.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
+  {
+    "type": "openFile",
+    "path": "src/components/label.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", ""]
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./label.stories.3.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "createFile",
-  //   "path": "src/components/input.stories.js"
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./input.stories.1.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "createFile",
+    "path": "src/components/input.stories.js"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./input.stories.1.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/input.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 1,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", "import { Formik } from 'formik';"]
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 8,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", "  decorators: [(storyFn) => <Formik>{storyFn()}</Formik>],"]
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "openFile",
+    "path": "src/components/input.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 1,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", "import { Formik } from 'formik';"]
+  },
+  {
+    "type": "goto",
+    "line": 8,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", "  decorators: [(storyFn) => <Formik>{storyFn()}</Formik>],"]
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/input.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 9999,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./input.stories.2.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "openFile",
+    "path": "src/components/input.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./input.stories.2.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "createFile",
-  //   "path": "src/components/labeled-input.stories.js"
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./labeled-input.stories.1.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "createFile",
+    "path": "src/components/labeled-input.stories.js"
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./labeled-input.stories.1.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
   {
     "type": "openFile",
     "path": ".storybook/preview.js"
@@ -160,57 +160,57 @@
     "type": "typeTextFromFile",
     "path": "./preview.2.js"
   },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/labeled-input.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 9999,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", ""]
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./labeled-input.stories.2.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "openFile",
+    "path": "src/components/labeled-input.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", ""]
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./labeled-input.stories.2.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
-  // {
-  //   "type": "openFile",
-  //   "path": "src/components/labeled-input.stories.js"
-  // },
-  // {
-  //   "type": "goto",
-  //   "line": 9999,
-  //   "column": 9999
-  // },
-  // {
-  //   "type": "typeText",
-  //   "text": ["", ""]
-  // },
-  // {
-  //   "type": "typeTextFromFile",
-  //   "path": "./labeled-input.stories.3.js"
-  // },
-  // {
-  //   "type": "wait",
-  //   "delay": "manual",
-  //   "save": true
-  // },
+  {
+    "type": "openFile",
+    "path": "src/components/labeled-input.stories.js"
+  },
+  {
+    "type": "goto",
+    "line": 9999,
+    "column": 9999
+  },
+  {
+    "type": "typeText",
+    "text": ["", ""]
+  },
+  {
+    "type": "typeTextFromFile",
+    "path": "./labeled-input.stories.3.js"
+  },
+  {
+    "type": "wait",
+    "delay": "manual",
+    "save": true
+  },
 
   {
     "type": "createFile",
