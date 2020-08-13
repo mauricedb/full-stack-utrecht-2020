@@ -1,0 +1,23 @@
+import { Meta, Story, Preview, ArgsTable  } from '@storybook/addon-docs/blocks';
+import MovieList from './movie-list';
+import movies from './data/movies.json'
+
+<Meta title="Organisms/MovieList" 
+      component={MovieList}
+/>
+
+# MovieList
+
+With `MDX` we can define a story for `MovieList` right in the middle of our markdown documentation.
+
+Rendering a list of **5** movies.
+
+<Preview>
+    <Story name="Movie list">
+        <MovieList movies={movies} />
+    </Story>
+</Preview>
+
+## MovieList props
+
+<ArgsTable of={MovieList} />

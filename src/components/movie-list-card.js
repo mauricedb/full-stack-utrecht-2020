@@ -12,7 +12,9 @@ const MovieListCard = ({ movie }) => {
           height={190}
         />
         <div className="card-body">
-          <h5 className="card-title x-text-truncate">{movie.title}</h5>
+          <h5 className="card-title text-truncate" title={movie.title}>
+            {movie.title}
+          </h5>
           <p className="card-text">{movie.overview}</p>
         </div>
         <div className="card-footer">
